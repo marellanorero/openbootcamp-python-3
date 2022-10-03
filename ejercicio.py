@@ -1,10 +1,6 @@
-def imc(peso, estatura):
-    """Calcula índice masa corporal"""
-    return peso / estatura**2
+for i in range(100, 0, -1):
+    print(i, end=' ')
 
-peso=float(input('Escriba su peso en KG: '))
-estatura=float(input('Escriba su estatura en M: '))
+print()
 
-indice = imc(peso, estatura)
 
-print('Su IMC es: {}'.format(indice))
